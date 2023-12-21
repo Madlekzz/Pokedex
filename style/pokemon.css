@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Fondo rojo de la pokedex */
+body {
+    font-family: 'Press Start 2P';
+    background-color: #D00;
+}
+/* Pantalla superior */
+.top-screen{
+    position: relative;
+    display: block;
+    background: #bfe5f8;
+    margin: auto;
+    border: 3px solid black;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.pokeball-background {
+    margin: auto;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+.pokemon-front-sprite {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    right: 45%;
+}
+.pokemon-back-sprite {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    left: 45%;
+}
+/* Pantalla inferior */
+.bottom-screen{
+    position: relative;
+    background: #bfe5f8;
+    margin: auto;
+    border: 3px solid black;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    overflow-y:auto;
+    margin-bottom: 3%;
+}
+.lista {
+    padding: 8px;
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 2%;
+    background-image: url("http://127.0.0.1:5500/bucket/Pokeball.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+li:hover {
+    border: 3px solid red;
+}
+b {
+    margin-right: 5%;
+    margin-left: 3%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.cruz {
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    width: 3%;
+    height: 20%;
+    margin-left: 85%;
+    margin-top: 30%;
+    border: 10px solid black;
+    transform: rotate(90deg);
+}
+.cruz-2 {
+    position: absolute;
+    background-color: rgb(37, 37, 37);
+    width: 3%;
+    height: 20%;
+    margin-left: 85%;
+    margin-top: 30%;
+    border: 10px solid black;
+}
+.cruz-3 {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg);
+}
+.circulo-negro {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 30%;
+    background-color: rgb(37, 37, 37);
+    border: 10px solid black;
+}
+.circulo-verde {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: .3%;
+    margin-top: 0;
+}
+.circulo-amarillo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: .3%;
+    margin-top: 0;
+}
+.circulo-rojo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-top: 10;
+}
+.circulo-azul {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(43, 201, 236, 0.975);
+    border-radius: 50%;
+    border: 7px solid rgb(243, 230, 230);
+    margin-left: 5%;
+    margin-top: 10px;
+}
