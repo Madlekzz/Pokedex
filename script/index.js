@@ -1,3 +1,5 @@
+// Funcion main
+
 function obtenerPokemons() {
     axios.get('https://pokeapi.co/api/v2/pokemon?limit=1292')
     .then(function (response) {
